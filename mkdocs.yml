@@ -1,0 +1,49 @@
+site_name: 惊蛰
+
+nav:
+  - 主页: index.md
+  - 猜文风:
+    - 第一届：长夏:
+      - 第一组: records/01_1.md
+      - 第二组: records/01_2.md
+    - 第二届：交换主题: records/02.md
+    - 第三届：“百合only”:
+      - 第一组: records/03_1.md
+      - 第二组: records/03_2.md
+    - 第四届：年兽/回环:
+      - empty.md
+
+theme:
+  name: material
+  language: zh # 语言: 中文
+  logo: icons/logo.png # 网站logo
+  favicon: icons/favicon.png # 网站图标
+  palette:
+    primary: "brown" # 主色调
+    # accent: "deep orange" # 强调色调
+  font: # 字体
+    text: "Microsoft YaHei" # 正文字体
+    code: "Consolas" # 代码字体
+  custom_dir: overrides # 自定义文件夹
+  features: # 功能
+    - navigation.sections # 显示章节
+    - navigation.expand # 展开导航
+    - navigation.indexes # 使用目录索引
+    # - toc.integrate # 集成目录
+    # - navigation.instant # 瞬间导航
+    - navigation.tracking # 跟踪导航
+
+extra_css:
+  - adjustment/font.css # 字体调整
+  - adjustment/logo.css # logo调整
+  - adjustment/color.css # 颜色调整
+
+markdown_extensions:
+  - toc:
+      permalink: true # 目录链接
+      toc_depth: 2 # 目录深度
+      title: "目录" # 目录标题
+  - admonition #警告
+  - pymdownx.details #细节折叠
+  - pymdownx.superfences #超级围栏
+  - footnotes #脚注
