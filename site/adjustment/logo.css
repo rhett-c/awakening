@@ -1,0 +1,7 @@
+.md-logo img {
+    transition: transform 0.3s ease;
+}
+
+.md-logo img:hover {
+    transform: scale(1.1);
+}
