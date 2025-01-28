@@ -5,7 +5,7 @@
 {{ super() }}
 <!-- Add scripts that need to run afterwards here -->
 {% if page.toc and not "toc.integrate" in features %}
-<script src="/adjustment/toc.js" defer></script>
-<link rel="stylesheet" href="/adjustment/fold_toc.css">
+<script src="../../adjustment/toc.js" defer></script>
+<link rel="stylesheet" href="../../adjustment/fold_toc.css">
 {% endif %}
 {% endblock %}
