@@ -14,8 +14,8 @@ const textAppearTime = 200; // 文本出现时间
 const textDisappearTime = 200; // 文本消失时间
 const onFabTitle = '熄灭蜡烛'; // 按钮激活时的提示
 const offFabTitle = '点燃蜡烛'; // 按钮未激活时的提示
-const onImagePath = '../../icons/lighted_candle.png'; // 按钮激活时的图标路径
-const offImagePath = '../../icons/unlighted_candle.png'; // 按钮未激活时的图标路径
+const onImagePath = 'https://rhett-c.github.io/awakening/icons/lighted_candle.png'; // 按钮激活时的图标路径
+const offImagePath = 'https://rhett-c.github.io/awakening/icons/unlighted_candle.png'; // 按钮未激活时的图标路径
 
 // 页面加载时，初始化
 window.addEventListener('load', init);
