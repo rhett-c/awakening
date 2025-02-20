@@ -5,7 +5,21 @@
 {{ super() }}
 <!-- Add scripts that need to run afterwards here -->
 {% if page.toc and not "toc.integrate" in features %}
-<script src="../../adjustment/toc.js" defer></script>
-<link rel="stylesheet" href="../../adjustment/fold_toc.css">
+<script src="https://rhett-c.github.io/awakening/adjustment/toc.js" defer></script>
+<link rel="stylesheet" href="https://rhett-c.github.io/awakening/adjustment/fold_toc.css">
 {% endif %}
+{% endblock %}
+
+
+{% block content %}
+<link rel="stylesheet" href="https://rhett-c.github.io/awakening/adjustment/float_action_button.css">
+
+<div class="float-action-button" id="fab">
+    <div class="icon-box"></div>
+</div>
+
+<script src="https://rhett-c.github.io/awakening/adjustment/float_action_button.js"></script>
+<!-- <script src="https://rhett-c.github.io/awakening/adjustment/draggable_block.js"></script> -->
+
+{{ super() }}
 {% endblock %}

@@ -1,0 +1,127 @@
+/* 位置 */
+.float-action-button {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    display: block;
+    cursor: pointer;
+    /* 使其位于最上层 */
+    z-index: 1000;
+}
+
+/* 颜色和形状 */
+.float-action-button {
+    width: 50px;
+    height: 50px;
+    background-color: #c2b08f;
+    color: #F2F1EF;
+    border-radius: 50%;
+    padding: 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+/* 图标 */
+.icon-box {
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-box {
+    background-image: url('../../icons/unlighted_candle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+    transition: all 0.2s ease-in;
+}
+
+/* 边框 */
+.float-action-button {
+    border: 1px solid #bfbfbfef;
+}
+
+/* 阴影 */
+.float-action-button {
+    box-shadow: 0px 0px 6px 2px #BFBFBF;
+}
+
+/* 悬停样式 */
+.float-action-button:hover {
+    /* background-color: #d7c9af; 设置悬停时的高亮颜色 */
+    box-shadow: 0px 0px 8px 4px #BFBFBF;
+}
+
+/* 特效相关 */
+:root {
+    filter: brightness(90%);
+    transition: filter 1s ease-in-out;
+}
+
+.covered-text {
+    display: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.md-sidebar--secondary {
+    opacity: 0;
+    /* NOTE: 不知为何，不能同时将竖屏界面菜单内导航栏设置为透明 */
+    /*       同时设置时，会导致侧边栏（右侧导航栏）无法显示 */
+}
+
+/* 扩散效果 */
+.wave {
+    width: 80px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    z-index: -1000;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.wave {
+    background-color: #c2b08f;
+    border-radius: 50%;
+    /* animation: wave-animation 3s; */
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: scale(0) translateZ(0) translate(-50%, -50%);
+        opacity: 0.15;
+    }
+
+    60% {
+        transform: scale(200) translateZ(0) translate(-50%, -50%);
+        opacity: 0.05;
+    }
+
+    100% {
+        transform: scale(400) translateZ(0) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+
+@keyframes wave-animation-reverse {
+    0% {
+        transform: scale(400) translateZ(0) translate(-50%, -50%);
+        opacity: 0;
+    }
+
+    15% {
+        transform: scale(1) translateZ(0) translate(-50%, -50%);
+        opacity: 0.15;
+    }
+
+    100% {
+        transform: scale(0) translateZ(0) translate(-50%, -50%);
+        opacity: 0;
+    }
+}

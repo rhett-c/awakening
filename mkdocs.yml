@@ -11,7 +11,8 @@ nav:
       - 第一组: records/03_1.md
       - 第二组: records/03_2.md
     - 第四届：年兽/回环:
-      - empty.md
+      - 第一组: records/04_1.md
+      - 第二组: records/04_2.md
 
 theme:
   name: material
@@ -21,6 +22,22 @@ theme:
   palette:
     primary: "brown" # 主色调
     # accent: "deep orange" # 强调色调
+    # # 亮色主题
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   primary: brown
+    #   accent: indigo
+    #   toggle:
+    #     icon: material/brightness-7
+    #     name: 切换至暗色模式
+    # # 暗色主题
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   primary: indigo
+    #   accent: indigo
+    #   toggle:
+    #     icon: material/brightness-4
+    #     name: 切换至亮色模式
   font: # 字体
     text: "Microsoft YaHei" # 正文字体
     code: "Consolas" # 代码字体
