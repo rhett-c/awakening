@@ -24,9 +24,6 @@
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
       
-        
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
-      
       
 
 
@@ -60,12 +57,7 @@
   </head>
   
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="indigo">
+    <body dir="ltr">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -116,8 +108,8 @@
       </div>
     </div>
     
-      
     
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -629,6 +621,16 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+<link rel="stylesheet" href="../../adjustment/float_action_button.css">
+
+<div class="float-action-button" id="fab">
+    <div class="icon-box"></div>
+</div>
+
+<script src="../../adjustment/float_action_button.js"></script>
+<!-- <script src="../../adjustment/draggable_block.js"></script> -->
+
+
                   
 
 
@@ -645,11 +647,15 @@
 <li>所有人都提交稿件或截止时间到之后，主持人将所有人的文本整理，抹去作者信息并统一格式化发到群里。每位作者（也包括其他所有人）可以猜测每一篇文本出自谁手。</li>
 <li>因为包含自己写作的是哪一段的信息，作者自己的猜测需要私聊主持人给出。在作者的猜测集齐之后，或是谜面发布24h之后，主持人将在群内公布每个作品的具体作者。</li>
 </ol>
+<blockquote>
+<p><strong>追加规则</strong></p>
+<p>Deepseek R1 横空出世，主持已经大受震撼。文学就要死了！总之，这次活动加入 deepseek 仿写，愿意接受仿写的参与者文本将附一份 deepseek 仿写文本参加。仿写文本一定放在与原文本相邻的地方，但你需要判断哪个是你的朋友，哪个是他的赛博嘴替<br />
+组内名单中，后加 <code>&amp; DS</code> 的是参与 AI 模仿写作的。</p>
+</blockquote>
 <p><strong>主持人</strong>：树 (通俗文学bot)</p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">参与者</p>
-<p>// 等待更新</p>
+<p class="admonition-title">参与名单</p>
 </div>
 <p>// 等待更新</p>
 
@@ -665,6 +671,7 @@
 
 
                 
+
               </article>
             </div>
           
