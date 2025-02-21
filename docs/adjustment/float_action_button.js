@@ -3,9 +3,9 @@ const iconBox = document.getElementsByClassName('icon-box')[0];
 const coveredTextList = document.getElementsByClassName('covered-text');
 const sidebar = document.querySelector('.md-sidebar.md-sidebar--secondary'); // 侧边栏（右侧导航栏）
 const nav = document.querySelector('.md-nav.md-nav--secondary'); // 导航栏（竖屏界面菜单内导航栏）
-const modeSwitchWidth = 1220; // 切换横竖屏的页面宽度
+const modeSwitchWidth = 945; // 切换横竖屏的页面宽度
 // ⬆ TODO:  无法隐藏侧边导航中出现的作者名称，作为替代，隐藏整个侧边导航
-//          触发竖屏模式的条件: 页面宽度小于 1220px
+//          触发竖屏模式的条件: 页面宽度小于 1220px / 945px (怎么变了？)
 let coveringTextList;
 const minWidth = 250; // 显示悬浮按钮的最小页面宽度
 const minHeight = 400; // 显示悬浮按钮的最小页面高度

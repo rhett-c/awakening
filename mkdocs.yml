@@ -39,11 +39,14 @@ theme:
     #     icon: material/brightness-4
     #     name: 切换至亮色模式
   font: # 字体
-    text: "Microsoft YaHei" # 正文字体
+    # text: "Microsoft YaHei"
+    text: "微软雅黑"
+    # text: "Noto Sans Simplified Chinese" # 正文字体
     code: "Consolas" # 代码字体
   custom_dir: overrides # 自定义文件夹
   features: # 功能
     - navigation.sections # 显示章节
+    # - navigation.tabs # 显示标签
     - navigation.expand # 展开导航
     - navigation.indexes # 使用目录索引
     # - toc.integrate # 集成目录
@@ -57,7 +60,8 @@ extra_css:
 
 markdown_extensions:
   - toc:
-      permalink: true # 目录链接
+      permalink: false # 目录链接
+      slugify: !!python/name:pymdownx.slugs.uslugify_cased # 目录链接格式(Unicode, case-sensitive)
       toc_depth: 2 # 目录深度
       title: "目录" # 目录标题
   - admonition #警告
