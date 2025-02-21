@@ -51,7 +51,7 @@ function init() {
         newTextDiv.className = 'covering-text';
         newTextDiv.innerHTML = "████████";
         // newTextDiv.style.backgroundColor = '#000000'; // 微软雅黑字体可以显示出练续黑条，且宽度比背景色宽，因此不使用黑色背景
-        newTextDiv.style.color = '#ffffff';
+        newTextDiv.style.backgroundColor = '#ffffff';
         newTextDiv.style.opacity = 0;
         newTextDiv.style.display = 'inline';
         newTextDiv.style.transition = 'all 0.4s ease-in-out';
