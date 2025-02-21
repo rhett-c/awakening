@@ -23,7 +23,10 @@
 }
 
 .md-typeset h3 {
-    font-weight: 500;
+    font-weight: 600;
+    /* 修改三级标题字体属性 */
+    font-size: 1.4em;
+    margin-bottom: 1.25em;
 }
 
 .md-typeset h1,
@@ -35,10 +38,6 @@
 
 .md-typeset {
     font-size: .7rem;
-}
-
-.md-typeset h3 {
-    font-weight: 600;
 }
 
 @media screen and (max-width: 59.9375em) {
@@ -73,4 +72,33 @@
 /* 修改分割线的宽度 */
 .md-typeset hr {
     border-bottom: .10rem solid var(--md-default-fg-color--lightest);
+}
+
+/* 额外的修改 */
+
+p {
+    /* 原始行高: 1.6 */
+    line-height: 175%;
+}
+
+@font-face {
+    font-family: '汉仪中楷简';
+    /* src: url(../../fonts/HanYiZhongKaiJian-1.ttf); */
+    src: url(https://rhett-c.github.io/awakening/fonts/HanYiZhongKaiJian-1.ttf);
+}
+
+@font-face {
+    font-family: '汉仪玄宋35S';
+    /* src: url(../../fonts/汉仪玄宋35S.ttf); */
+    src: url(https://rhett-c.github.io/awakening/fonts/汉仪玄宋35S.ttf);
+}
+
+@font-face {
+    font-family: '微软雅黑';
+    /* src: url(../../fonts/微软雅黑.ttf); */
+    src: url(https://rhett-c.github.io/awakening/fonts/微软雅黑.ttf);
+}
+
+.md-content {
+    font-family: '微软雅黑';
 }
