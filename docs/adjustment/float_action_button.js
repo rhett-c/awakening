@@ -198,17 +198,17 @@ function textDisappearing(div, time_delay) {
 }
 
 // 点击按钮时，创造一个新的div元素，并播放效果动画
-fab.addEventListener('click', () => {
-    const newDiv = document.createElement('div');
-    newDiv.classList.add('wave');
-    if (buttonStatus) {
-        newDiv.style.animation = 'wave-animation 3s';
-    }
-    else {
-        newDiv.style.animation = 'wave-animation-reverse 4s';
-    }
-    fab.appendChild(newDiv);
-    setTimeout(() => {
-        fab.removeChild(newDiv);
-    }, 5000);
-});
+// fab.addEventListener('click', () => {
+//     const newDiv = document.createElement('div');
+//     newDiv.classList.add('wave');
+//     if (buttonStatus) {
+//         newDiv.style.animation = 'wave-animation 3s';
+//     }
+//     else {
+//         newDiv.style.animation = 'wave-animation-reverse 4s';
+//     }
+//     fab.appendChild(newDiv);
+//     setTimeout(() => {
+//         fab.removeChild(newDiv);
+//     }, 5000);
+// });

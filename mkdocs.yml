@@ -13,6 +13,7 @@ nav:
     - 第四届：年兽/回环:
       - 第一组: records/04_1.md
       - 第二组: records/04_2.md
+    - 第五届：猫: records/05.md
 
 theme:
   name: material
