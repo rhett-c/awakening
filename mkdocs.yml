@@ -14,6 +14,10 @@ nav:
       - 第一组: records/04_1.md
       - 第二组: records/04_2.md
     - 第五届：猫: records/05.md
+    - 第六届：乌托邦/文字工厂:
+      - 第一组: records/06_1.md
+      - 第二组: records/06_2.md
+      - 第三组: records/06_3.md
 
 theme:
   name: material
