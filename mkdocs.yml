@@ -13,12 +13,16 @@ nav:
     - 第四届：年兽/回环:
       - 第一组: records/04_1.md
       - 第二组: records/04_2.md
-    - 第五届：猫: records/05.md
-    - 第六届：乌托邦/文字工厂:
-      - 第一组: records/06_1.md
-      - 第二组: records/06_2.md
-      - 第三组: records/06_3.md
-    - 第七届：ustc怪谈: records/07.md
+    - 第大于四小于五届：猫: records/04cat.md
+    - 第五届：乌托邦/文字工厂:
+      - 第一组: records/05_1.md
+      - 第二组: records/05_2.md
+      - 第三组: records/05_3.md
+    - 第六届：ustc怪谈: records/06.md
+    - 第七届：情书/情诗:
+      - 常规赛: records/07_1.md
+      - 加时赛: records/07_2.md
+    - 第八届：长夏: records/08.md
 
 theme:
   name: material

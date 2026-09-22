@@ -166,7 +166,7 @@ fab.addEventListener('click', () => {
             nav.style.opacity = 0;
             nav.style.pointerEvents = 'none';
         }
-        document.documentElement.style.filter = 'brightness(90%)';
+        document.documentElement.style.filter = 'brightness(95%)';
 
         for (let i = 0; i < coveredTextList.length; i++) {
             // 隐藏covered-text元素
